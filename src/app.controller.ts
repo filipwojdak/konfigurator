@@ -1,4 +1,4 @@
-import { Controller, Get, Param } from '@nestjs/common';
+import { Controller, Get, Push, Param, Body } from '@nestjs/common';
 import { AppService } from './app.service';
 import { HouseOptions } from './interfaces/HouseOptions.interface';
 
@@ -14,5 +14,10 @@ export class AppController {
   @Get('options/:modelName')
   getHouseOptions(@Param('modelName') modelName: string): HouseOptions[] {
     return this.appService.getHouseOptions(modelName);
+  }
+
+  @Push('config')
+  sendOfferDetails(@Body() data: any) {
+    return this.appService.sendOfferDetails(data);
   }
 }
