@@ -11,7 +11,7 @@ export class AppService {
 
   getHouseModels(): HouseModel[] {
     const data = fs.readFileSync(
-      path.join(this.dataPath, 'models.json'),
+      path.join(this.dataPath, 'models.data'),
       'utf-8',
     );
     return JSON.parse(data);
