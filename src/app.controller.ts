@@ -6,6 +6,11 @@ import { HouseOptions } from './interfaces/HouseOptions.interface';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
+  @Get()
+  getHello(): string {
+    return 'ping';
+  }
+
   @Get('/models')
   models() {
     return this.appService.getHouseModels();
