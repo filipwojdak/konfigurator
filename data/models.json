@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tucana",
+    "description": "dom jednorodzinny, 1 kondygnacja",
+    "size": 53,
+    "img": "https://hauswerk.pl/wp-content/uploads/2022/02/Tucana_1-1024x576.png"
+  },
+  {
+    "name": "Crux",
+    "description": "dom jednorodzinny, 1 kondygnacja",
+    "size": 75.3,
+    "img": "https://hauswerk.pl/wp-content/uploads/2023/02/1-1024x576.png"
+  },
+  {
+    "name": "Libra",
+    "description": "dom jednorodzinny, 1 kondygnacja",
+    "size": 89.4,
+    "img": "https://hauswerk.pl/wp-content/uploads/2022/02/Libra-07.12_1_okladka-1024x576.png"
+  },
+  {
+    "name": "Vela",
+    "description": "dom jednorodzinny, 1 kondygnacja",
+    "size": 98.55,
+    "img": "https://hauswerk.pl/wp-content/uploads/2022/02/1-13-1024x576.png"
+  },
+  {
+    "name": "Carina",
+    "description": "dom jednorodzinny, 1 kondygnacja",
+    "size": 115.5,
+    "img": "https://hauswerk.pl/wp-content/uploads/2022/02/1-1024x576.png"
+  }
+]

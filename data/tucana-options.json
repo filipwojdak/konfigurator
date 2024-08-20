@@ -1,0 +1,268 @@
+[
+  {
+    "order": 0,
+    "name": "Wersja domu",
+    "description": "",
+    "selectors": [
+      {
+        "order": 0,
+        "name": "Wersja domu",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Domyślna",
+            "description": "Wersja domu z salonem po prawej stronie.",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Odbicie lustrzane",
+            "description": "Wersja domu z salonem po lewej stronie.",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "order": 1,
+    "name": "Dach",
+    "description": "",
+    "selectors": [
+      {
+        "order": 0,
+        "name": "Rodzaj pokrycia dachu",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Blachodachówka",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Dachówka ceramiczna/betonowa",
+            "description": "",
+            "price": 10000
+          },
+          {
+            "order": 2,
+            "name": "Panele imitujące blachę na rąbek",
+            "description": "",
+            "price": 20000
+          }
+        ]
+      },
+      {
+        "order": 1,
+        "name": "Kolor dachu",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Czerwony",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Czarny",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 2,
+            "name": "antracyt",
+            "description": "",
+            "price": 5000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "order": 2,
+    "name": "Okna",
+    "description": "",
+    "selectors": [
+      {
+        "order": 0,
+        "name": "Typ okien",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Standardowe",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Okno balkonowe przesuwne",
+            "description": "",
+            "price": 10000
+          }
+        ]
+      },
+      {
+        "order": 1,
+        "name": "Kolor okien",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Białe",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Jasne drewniane",
+            "description": "",
+            "price": -5000
+          },
+          {
+            "order": 2,
+            "name": "Ciemne drewniane",
+            "description": "",
+            "price": 7000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "order": 3,
+    "name": "Rynny",
+    "description": "",
+    "selectors": [
+      {
+        "order": 0,
+        "name": "Kształt rynny",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Kwadratowe",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Okrągłe",
+            "description": "",
+            "price": 1000
+          }
+        ]
+      },
+      {
+        "order": 1,
+        "name": "Kolor rynien",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Ciemne",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Jasne",
+            "description": "",
+            "price": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "order": 4,
+    "name": "Elewacja",
+    "description": "",
+    "selectors": [
+      {
+        "order": 0,
+        "name": "Kolor elewacji",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Styropian",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Wełna",
+            "description": "",
+            "price": 20000
+          },
+          {
+            "order": 2,
+            "name": "Przygotowanie pod deskę",
+            "description": "",
+            "price": -20000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "order": 5,
+    "name": "Inne",
+    "description": "",
+    "selectors": [
+      {
+        "order": 0,
+        "name": "Elementy opcjonalne",
+        "description": "",
+        "selection": "multiple",
+        "options": [
+          {
+            "order": 0,
+            "name": "Rolety zewnętrzne",
+            "description": "",
+            "price": 30000
+          },
+          {
+            "order": 1,
+            "name": "Gotowość pod kominek",
+            "description": "",
+            "price": 10000
+          }
+        ]
+      },
+      {
+        "order": 1,
+        "name": "Transport i montaż",
+        "description": "",
+        "selection": "single",
+        "options": [
+          {
+            "order": 0,
+            "name": "Mazowsze",
+            "description": "",
+            "price": 0
+          },
+          {
+            "order": 1,
+            "name": "Małopolska",
+            "description": "",
+            "price": 50000
+          }
+        ]
+      }
+    ]
+  }
+]
