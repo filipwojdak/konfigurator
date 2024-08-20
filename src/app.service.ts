@@ -7,7 +7,7 @@ import { HouseConfigurator } from './interfaces/HouseConfigurator.interface';
 
 @Injectable()
 export class AppService {
-  private readonly dataPath = path.join(__dirname, '..', 'data');
+  private readonly dataPath = path.join(__dirname, 'data');
 
   getHouseModels(): HouseModel[] {
     const data = fs.readFileSync(
