@@ -25,4 +25,9 @@ export class AppController {
   sendOfferDetails(@Body() data: any) {
     return this.appService.sendOfferDetails(data);
   }
+
+  @Get('image')
+  serveImage() {
+    return this.appService.serveImage();
+  }
 }

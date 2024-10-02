@@ -26,4 +26,17 @@ export class AppService {
   sendOfferDetails(data: HouseConfigurator): HouseConfigurator {
     return data;
   }
+
+  serveImage() {
+    const images = fs.readdirSync(
+      path.join(this.dataPath, '../..', 'assets/images'),
+    );
+    const randomImage = images[Math.floor(Math.random() * images.length)];
+    return {
+      url: `/assets/images/${randomImage}`,
+      data: fs.readFileSync(
+        path.join(this.dataPath, '../..', 'assets/images', randomImage),
+      ),
+    };
+  }
 }
